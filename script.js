@@ -1,4 +1,4 @@
-let data = d3.csv('/wealth-health-2014.csv', d3.autoType).then (data =>{
+let data = d3.csv('wealth-health-2014.csv', d3.autoType).then (data =>{
     console.log('data.columns', data[0]);
 
     d3.select('.chart').append('svg');
