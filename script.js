@@ -102,7 +102,7 @@ let data = d3.csv('wealth-health-2014.csv', d3.autoType).then (data =>{
         .data(colorScale.domain())
         .enter()
         .append('rect')
-        .attr('x', width - 80)
+        .attr('x', width - 100)
         .attr('y', (d,i) => i * 20+300)
         .attr('height', 15)
         .attr('width', 15)
@@ -112,7 +112,7 @@ let data = d3.csv('wealth-health-2014.csv', d3.autoType).then (data =>{
         .data(colorScale.domain())
         .enter()
         .append('text')
-        .attr('x', width - 60)
+        .attr('x', width - 80)
         .attr('y', (d,i) => i * 20+310)
         .attr('class', 'region')
         .text(d=>d);
