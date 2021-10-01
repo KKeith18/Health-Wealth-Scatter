@@ -1,0 +1,17 @@
+.tooltip{
+    font-size:8;
+    color : white;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: black;
+    opacity: .8;
+}
+
+.region{
+
+    font-size:8px;
+}
+.head{
+    margin-left:20px
+
+}
